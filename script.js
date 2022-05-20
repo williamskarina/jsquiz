@@ -78,35 +78,36 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What is the Capital of CA?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Sacramento', correct: true },
+      { text: 'Oakland', correct: false }, 
+      { text: 'Texas', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is the CA state bird?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Eagle', correct: false },
+      { text: 'Turkey', correct: false },
+      { text: 'Quail', correct: true },
+      { text: 'Seagull', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'What is the CA state flower?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Rose', correct: false },
+      { text: 'Poppy', correct: true },
+      { text: 'Sunflower', correct: false },
+      { text: 'Dandelion', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'CA is on which coast?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'West', correct: true },
+      { text: 'East', correct: false }
     ]
   }
 ]
